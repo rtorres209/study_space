@@ -64,6 +64,7 @@ public class StudySpace extends JFrame {
         add(bottomPanel, BorderLayout.SOUTH);
 
         setVisible(true);
+        
     }
 
     public static void main(String[] args) {
@@ -79,3 +80,4 @@ public class StudySpace extends JFrame {
         );
     }
 }
+//Commons, cafe, science, gym, 
