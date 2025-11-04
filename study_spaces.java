@@ -69,24 +69,24 @@ public class StudySpace extends JFrame {
 
     public static void main(String[] args) {
         new StudySpace(
-                name:"Vasche Library",
-                location:"Library, 2nd Floor",
-                description:"Perfect for individual and group study. Comfortable seating with outlets.",
-                photoPath:"library.jpg",
-                imgWidth:400,
-                imgHeight:300,
-                indoorsOrOutdoors:"Indoors",
-                noisLevel:"Very Quiet"
+                "Vasche Library",
+                "Library, 2nd Floor",
+                "Perfect for individual and group study. Comfortable seating with outlets.",
+                "library.jpg",
+                400,
+                300,
+                "Indoors",
+                "Very Quiet"
         );
         new StudySpace(
-                name:"Commons",
-                location:"Library, 2nd Floor",
-                description:"Perfect for individual and group study, also has tutoring available. Comfortable seating with outlets.",
-                photoPath:"commons.jpg",
-                imgWidth:400,
-                imgHeight:300,
-                indoorsOrOutdoors:"Indoors",
-                noiseLevel:"Quiet"
+                :"Commons",
+                "Library, 2nd Floor",
+                "Perfect for individual and group study, also has tutoring available. Comfortable seating with outlets.",
+                "commons.jpg",
+                400,
+                300,
+                "Indoors",
+                "Quiet"
         );
         new StudySpace(
                 "Science Building",
