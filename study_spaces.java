@@ -69,15 +69,44 @@ public class StudySpace extends JFrame {
 
     public static void main(String[] args) {
         new StudySpace(
-                "Vasche Library",
-                "Library, 2nd Floor",
-                "Perfect for individual and group study. Comfortable seating with outlets.",
-                "library.jpg",
+                name:"Vasche Library",
+                location:"Library, 2nd Floor",
+                description:"Perfect for individual and group study. Comfortable seating with outlets.",
+                photoPath:"library.jpg",
+                imgWidth:400,
+                imgHeight:300,
+                indoorsOrOutdoors:"Indoors",
+                noisLevel:"Very Quiet"
+        );
+        new StudySpace(
+                name:"Commons",
+                location:"Library, 2nd Floor",
+                description:"Perfect for individual and group study, also has tutoring available. Comfortable seating with outlets.",
+                photoPath:"commons.jpg",
+                imgWidth:400,
+                imgHeight:300,
+                indoorsOrOutdoors:"Indoors",
+                noiseLevel:"Quiet"
+        );
+        new StudySpace(
+                "Science Building",
+                "Naraghi Hall of Science, 1st Floor",
+                "Good for individual study. A more casual feel with variety of seating with outlets.",
+                "science.jpg",
                 400,
                 300,
                 "Indoors",
-                "Very Quiet"
+                "Quiet"
         );
+        new StudySpace(
+                "Science Building",
+                "Naraghi Hall of Science, 1st Floor",
+                "Good for individual study. A more casual feel with variety of seating with outlets.",
+                "science.jpg",
+                400,
+                300,
+                "Indoors",
+                "Quiet"
     }
 }
 //Commons, cafe, science, gym, 
